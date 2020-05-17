@@ -1,9 +1,9 @@
-
 public class main {
 
 	public static void main(String[] args) {
-		int a;
-
+		
+		MainThread main_thread = new MainThread();
+		
 	}
 
 }
