@@ -2,8 +2,10 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		MainThread main_thread = new MainThread();
-		
+		Thread gameThread;
+		gameThread = new Thread();
+		MainThread mainThread = new MainThread(gameThread);
+		mainThread.start();
 	}
 
 }
